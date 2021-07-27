@@ -1,4 +1,4 @@
-# Actual course page is at [https://TiraLabra.github.io/2021_loppukesa/](https://TiraLabra.github.io/2021_loppukesa/)
+# Actual course page is at [https://TiraLabra.github.io/2021_p1/](https://TiraLabra.github.io/2021_p1/)
 
 # TL/DR
 
