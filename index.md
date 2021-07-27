@@ -144,7 +144,7 @@ if (timing["paja1"]) {
   } else if (timing["demo"]) {
     elem.innerHTML = "Paikka ja aika: " + fiEvent(timing["demo"]) + ".";
   } else {
-    elem.innerHTML = "Aika ja paikka vahvistuvat myöhemmin.";
+    elem.innerHTML = "Demotilaisuudet pidetään tenttiviikolla. Aika ja paikka vahvistuvat myöhemmin.";
   }
 </script>
 

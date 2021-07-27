@@ -11,7 +11,7 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 ## Verkot ja polunetsintä
 
-* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi, kunhan osaat toteuttaa kartan / labyrintin visualisoinnin niin, ettei se vaadi kovin paljon työtä. Visualisointi vaaditaan, mutta se ei ole keskeinen osa tätä projektia. Selkeä ASCII-grafiikka riittää. 
+* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi, kunhan osaat toteuttaa kartan / labyrintin visualisoinnin niin, ettei se vaadi kovin paljon työtä. Visualisointi vaaditaan, mutta sen tekeminen ei saisi viedä suurta osaa työajasta. Selkeä ASCII-grafiikka riittää. 
 
 * Miten löydetään tehokkaasti nopein/lyhin reitti labyrintistä ulos. Labyrintti voi olla tehty esimerksi ascii-merkeistä tai piirretty kuva. [Wikipedia, Maze solving algorithm](https://en.wikipedia.org/wiki/Maze_solving_algorithm) 
 
@@ -56,6 +56,8 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 * Laskennallinen luovuus. Luovuutta voi toteuttaa esimerkiksi geneettisten algoritmien tai Markovin ketjujen avulla. Markovin ketju on prosessi, jossa kukin tila riippuu vain edellisestä tilasta, tai tässä tapauksessa yleensä jostain kiinteästä määrästä edellisiä tiloja. Näin voidaan tuottaa vaikka luonnollisen kaltaisia sanoja tai lauseita. Näin tuotettuja sanoja voi hyödyntää myös salasanan murtajassa valmiin sanaston lisäksi. Tällä kurssilla on tehty myös sävellyksiä käyttäen Markovin ketjuja. Toteuta itse Trie-tietorakenne sanojen / lauseiden / sävelkulkujen / sointusekvenssien tallettamiseen.
 
 * Eigenface kasvontunnistus. Katso [Eigenface](https://en.wikipedia.org/wiki/Eigenface) Esitiedot: vähintään Lineaarialgebra ja matriisilaskenta 1+2. Perusmenetelmää voidaan laajentaa, jolloin voit käyttää matriisilaskentaan valmiita kirjastoja, sovi tarkemmasta aiheesta ohjaajan kanssa.
+
+* Käsin kirjoitettujen numeroiden tunnistus. [MNIST](http://yann.lecun.com/exdb/mnist/) on tietokanta, jota käytetään paljon hahmontunnistusmenetelmien testaamiseen. Tällä kurssilla on numeroita luokiteltu neuroverkoilla, jopa ilman esitietoja neuroverkoista, mutta silloin aihe on vaativa. Sovi ohjaajan kanssa mitä valmiita välineitä voit käyttää, jotta työmäärä on kohtuullinen. Yksi ratkaisu on muuntaa MNIST:in harmaasävykuvat mustavalkoisiksi ja käyttää [k:n lähimmän naapurin menetelmää](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) pistejoukkojen etäisyysmitoilla, [ote artikkelista Pistejoukkojen etäisyysmitat optisessa merkkien tunnistuksessa, Hannu Kärnä 2016](distance_measures.pdf)   
 
 ## Luolastogeneraattori
 * Suosituksi noussut aihe on esimerkiksi rogue-peleissä käytettävien luolien generointi. Tähän on tarjolla valmiita algoritmejä joita voi toteuttaa, mutta oma toteutus on myös täysin mahdollinen. Luolaston generointi voi joko olla etukäteen tapahtuva tai dynaamisesti pelin aikana kehittyvä pelaajan liikkumisen mukaan.
