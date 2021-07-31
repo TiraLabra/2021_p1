@@ -17,9 +17,9 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 * Miten löydetään tehokkaasti nopein/lyhin reitti verkossa kahden pisteen välillä. Verkon pisteet voivat olla esimerkiksi katuosoitteita, joukkoliikenteen pysäkkejä tai koordinaatteja. Hyvä artikkeli aiheesta: [Reitinhakualgoritmien vertailu](http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html)
 
-* Vähintään kahden eri reitinhakualgoritmin vertailu, joista toinen poikkeaa riittävästi esitietoihin kuuluvista Tira-kurssilla opituista. Esim. JPS, IDA\*, fringe search (varsin vaativa). A* ei kelpaa, ellei projektissa ole muuta algoritmista vaativuutta riittävästi. Labyrinteissa on syytä käyttää niihin tarkoitettuja algoritmeja.
+* Vähintään kahden eri reitinhakualgoritmin vertailu, joista ainakin toinen poikkeaa riittävästi esitietoihin kuuluvista Tira-kurssilla opituista. Esim. JPS, IDA\*, fringe search (varsin vaativa) vs Dijkstra. A\* ei kelpaa, se on liian lähellä esitietona olevaa Dijkstran algoritmia. Labyrinteissa on syytä käyttää niihin tarkoitettuja algoritmeja.
 
-* Reitinhakualgoritmien vertailussa on syytä heti alkuun toteuttaa löydetyn reitin ja läpikäytyjen solmujen / hyppypisteiden visualisointi. Ilman sitä on aika työlästä selvittää toimiiko algoritmi oikein. Vaikka kartan mukana olisi etäisyystietoja, joihin voi verrata lasketun reitin pituutta, ei oikean pituinen reitti takaa, että algoritmi toimii niin kuin sen pitäisi ja niin tehokkaasti kuin sen kuuluu toimia. Visualisointi paitsi auttaa valmiin työn oikeellisuuden toteamisessa, nopeuttaa myös virheiden löytämistä ohjelman laatimisen aikana.
+* Reitinhakualgoritmien vertailussa on syytä heti alkuun toteuttaa löydetyn reitin ja läpikäytyjen solmujen / hyppypisteiden visualisointi. Ilman sitä on vaikeaa selvittää toimiiko algoritmi oikein. Kartan mukana tulevia etäisyystietoja voi käyttää, mutta oikea etäisyys ei takaa, että algoritmi toimii niin tehokkaasti kuin sen kuuluu toimia. Visualisointi paitsi auttaa valmiin työn oikeellisuuden toteamisessa, nopeuttaa myös virheiden löytämistä ohjelman laatimisen aikana.
 
 * Karttoja reitinhakutöihin löytyy esimerkiksi [Moving AI Lab](http://www.movingai.com/benchmarks/):in sivuilta tai maanminttauslaitoksen karttojen [lataus](http://kartat.kapsi.fi/) sivustolta.
 
@@ -33,8 +33,6 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 ## Pelit
 
-* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi.
-
 * Vuoropohjaisia kahden pelaajan pelejä pelataan usein [minimax-algoritmilla](https://en.wikipedia.org/wiki/Minimax), jota on tehostettu [alpha-beta-karsinnalla](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). Yleensä ei ole mahdollista tutkia kaikkia siirtovaihtoehtoja siihen asti, että jompi kumpi voittaa. Silloin täytyy erilaisia pelitilanteita laittaa arvojärjestykseen myös muilla perusteilla. Tällainen on sopiva laajuus peliprojektille. Kaikkiin alla mainittuihin peleihin ei tämä lähestymistapa kuitenkaan toimi.
 
 * Shakki, go, risti-nolla (laajalla ruudukolla, 5:n rivi) jne. ovat hauskoja ja haastavia pelejä. Niitä olisi kiva pelata tietokonetta vastaan, tehtävänäsi on kehittää valitsemallesi pelille tekoäly. Tekoälyn pitää pystyä pelaamaan ihmistä vastaan, ehkä myös itseään vastaan. 
@@ -43,7 +41,7 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 * Kivi-sakset-paperi on kaikille tuttu peli. Onnistutko toteuttamaan tekoälyn, joka päihittää ohjaajan? Kun tekoälysi on hyvä voit jatkaa kehitystä ottamalla mukaan vielä kaksi vaihtoehtoa: [Lisko ja Spock](http://www.youtube.com/watch?v=x5Q6-wMx-K8). Huomaa että tämä aihe on tämä kurssin esitiedoilla aika hankala. Kannattaa ehdottomasti jutella ohjaajan kanssa jos tämä aihe kiinnostaa. ![Lisko Spock](http://upload.wikimedia.org/wikipedia/commons/a/ad/Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg)
 
-* [15-pelin](http://en.m.wikipedia.org/wiki/15_puzzle) ratkaisija. Kaikille tuttu 15-peli voi olla haastava ratkaistava. Saatko kehitettyä ohjelman joka ratkaisee pelin kuin pelin? 
+* [15-pelin](http://en.m.wikipedia.org/wiki/15_puzzle) ratkaisija. Kaikille tuttu 15-peli voi olla haastava ratkaistava. Saatko kehitettyä ohjelman joka ratkaisee pelin kuin pelin? IDA* sopivalla heuristiikalla käy ratkaisuksi.
 
 * [Miinaharava](https://en.wikipedia.org/wiki/Minesweeper_(video_game)) on toinen suosittu pulmapeli. Voit toteuttaa ratkaisijan/auttajan miinaharavaan projektipohjalla joka läytyy täältä: [https://github.com/TiraLabra/minesweeper](https://github.com/TiraLabra/minesweeper) Tämän kurssin kannalta kiinnostavista ratkaisutavoista kerrotaan esim. täällä: https://dash.harvard.edu/handle/1/14398552  Jos käytät valmista pohjaa, kerro koodin kommenteissa selvästi mikä on omaa koodiasi, ja mikä on pohjaa. Älä muokkaa pohjaa, vaan kirjoita oma koodisi omaan luokkaansa / metodiinsa.
 
