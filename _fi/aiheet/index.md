@@ -13,9 +13,9 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 * Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi, kunhan osaat tuottaa kartan / labyrintin visualisoinnin niin, ettei se vaadi liikaa työtä. Visualisointi on välttämätön, mutta sen tekeminen ei saisi viedä suurta osaa työajasta. Selkeä ASCII-grafiikka riittää. 
 
-- Miten löydetään tehokkaasti nopein/lyhin reitti labyrintistä ulos. Labyrintti voi olla tehty esimerksi ascii-merkeistä tai piirretty kuva. [Wikipedia, Maze solving algorithm](https://en.wikipedia.org/wiki/Maze_solving_algorithm) 
+** Miten löydetään tehokkaasti nopein/lyhin reitti labyrintistä ulos. Labyrintti voi olla tehty esimerksi ascii-merkeistä tai piirretty kuva. [Wikipedia, Maze solving algorithm](https://en.wikipedia.org/wiki/Maze_solving_algorithm) 
 
-- Miten löydetään tehokkaasti nopein/lyhin reitti verkossa kahden pisteen välillä. Verkon pisteet voivat olla esimerkiksi katuosoitteita, joukkoliikenteen pysäkkejä tai koordinaatteja. Hyvä artikkeli aiheesta: [Reitinhakualgoritmien vertailu](http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html)
+** Miten löydetään tehokkaasti nopein/lyhin reitti verkossa kahden pisteen välillä. Verkon pisteet voivat olla esimerkiksi katuosoitteita, joukkoliikenteen pysäkkejä tai koordinaatteja. Hyvä artikkeli aiheesta: [Reitinhakualgoritmien vertailu](http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html)
 
 * Vähintään kahden eri reitinhakualgoritmin vertailu, joista ainakin toinen poikkeaa riittävästi esitietoihin kuuluvista Tira-kurssilla opituista. Esim. JPS, IDA\*, fringe search (varsin vaativa) vs Dijkstra. A\* ei kelpaa, se on liian lähellä esitietona olevaa Dijkstran algoritmia. Labyrinteissa on syytä käyttää niihin tarkoitettuja algoritmeja.
 
