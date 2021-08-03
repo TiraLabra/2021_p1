@@ -11,7 +11,7 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 ## Verkot ja polunetsintä
 
-* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi, kunhan osaat toteuttaa kartan / labyrintin visualisoinnin niin, ettei se vaadi kovin paljon työtä. Visualisointi vaaditaan, mutta sen tekeminen ei saisi viedä suurta osaa työajasta. Selkeä ASCII-grafiikka riittää. 
+* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi, kunhan osaat tuottaa kartan / labyrintin visualisoinnin niin, ettei se vaadi liikaa työtä. Visualisointi on välttämätön, mutta sen tekeminen ei saisi viedä suurta osaa työajasta. Selkeä ASCII-grafiikka riittää. 
 
 * Miten löydetään tehokkaasti nopein/lyhin reitti labyrintistä ulos. Labyrintti voi olla tehty esimerksi ascii-merkeistä tai piirretty kuva. [Wikipedia, Maze solving algorithm](https://en.wikipedia.org/wiki/Maze_solving_algorithm) 
 
