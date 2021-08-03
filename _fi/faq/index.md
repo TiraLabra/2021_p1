@@ -16,41 +16,6 @@ Kyllä.
 
 Kannattaa varmistaa että erottelu käyttöliittymän ja varsinaisen projektin välillä on selkeä ja jättää käyttöliittymä pois testikaattavuudesta.
 
-## Saako tiedostojen lukemiseen / kirjoittamiseen käyttää valmista kirjastoa "Z"?
-
-Kyllä.
-
-Kannattaa "piilottaa" kirjaston käyttö omaan "I/O" luokkaan joka on ainoa jossa on kirjaston "Z" importti.
-
-## Saako javan rajapintoja käyttää?
-
-Kyllä. Tosin monissa tapauksissa tämä ei ole erityisen käytännöllistä.
-
-Esimerkiksi javan `List` sisältää paljon ominaisuuksia, mitä ei itse toteutetulla listalla tarvita. Lisäksi `List` on geneerinen tietorakenne, mikä javassa tarkoittaa että `List` rajapintaan perustuva oma toteutus ei voi ikinä olla yhtä nopea kuin kokonaisluvuille kovakoodattu rakenne. (Ellei kokonaislukujen käsittelyä ole erikseen koodattu toteutukseen.)
-
-## Pitääkö tietorakenteiden olla geneerisiä?
-
-Ei.
-
-## Saako ohjelmointikielen funktionaalisia ominaisuuksia (esim. Javan stream) käyttää?
-
-Ehkä, riippuu kielestä. Näiden käyttäminen tiralabran tyyppisessä projektissa on monesti epäkäytännöllistä näiden rakenteiden hitaudesta johtuen.
-
-Nämä toki ovat sallittuja ainakin testeissä ja käyttöliittymäkoodissa.
-
-## Saako Javan tai muun kielen `String` luokan funktioita / metodeita käyttää?
-
-Saa.
-
-
-## Saako Javan `Arrays` luokan funktioita / metodeita käyttää?
-
-Lähtökohtaisesti ei.
-
-## Saako käyttää javan `Random` luokkaa?
-
-Saa, ellei satunnaislukujen generoiminen ole osa itse projektia.
-
 ## Saako käyttää valmiita matemaattisia funktioita?
 
 Alkeistyyppien matemaattisia funktioita saa käyttää, kokonaiseen tietorakenteeseen kohdistuvia ei.
