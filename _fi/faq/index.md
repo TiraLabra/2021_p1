@@ -20,38 +20,6 @@ Kannattaa varmistaa että erottelu käyttöliittymän ja varsinaisen projektin v
 
 Alkeistyyppien matemaattisia funktioita saa käyttää, kokonaiseen tietorakenteeseen kohdistuvia ei.
 
-## Mikä on helpoin aihe jolla kurssista pääsee läpi / saa vitosen?
-
-Tämä on todella henkilökohtaista, eri henkilöille erilaiset projektit ovat erilailla haastavia.
-
-Tyypillisesti reittialgoritmivertailut, pakkausalgoritmit ja luolastogeneraattorit ovat olleet yksinkertaisemmasta päästä.
-
-* Reitinhaku [Movin ai labs](https://movingai.com/benchmarks/grids.html) 2d kartoilla on melko nopea toteuttaa, jos visualisointi on tekstigrafiikkana. Dijkstra vs JPS tai IDA* riittää hyvällä toteutuksella viitoseen. Dijkstra vs A* ei riitä läpäisyyn, koska Dijkstra kuuluu esitietoihin ja A* on lähes sama koodi.
-* Huffman pakkauksen toteuttamalla pääsee hyvin läpi. Toteuttamalla sen lisäksi jonkin muun pakkauksen on hyvät saumat vitoseen.
-* Luolastojen tai karttojen generointi parilla erilaisella algoritmilla riittää aika helposti läpipääsyn ja on suhteellisen yksinkertaisesti laajennettavissa vitosen arvoiseen suoritukseen.
-
-Kannattaa keskustella ohjaajan kanssa.
-
-## Voiko kieleksi valita C/C++/Rust/Fortran...?
-
-Matalan tason kielissä testaaminen ja testikattavuuden seuraaminen voi olla hankalaa. Ei suositella ellei ole hyvin perehtynyt kyseiseen kieleen ja valmis selvittämään miten kattavuudet saa esim. Codecoviin.
-
-Koodikatselmointien kanssa voi tulla ongelmia. Voit joutua arvioimaan jollain itsellesi tuntemattomalla kielellä kirjoitettua koodia, vastaavasti saamasi palaute voi olla vähemmän hyödyllistä, jos sen laatija ei osaa käyttämääsi kieltä.
-
-Puhu joka tapauksessa ohjaajan kanssa *ennen ekaa palautusta*!
-
-## Voiko kieleksi valita JavasCriptin?
-
-Jäsä tuntuu jostain syystä soveltuvan yllättävän hyvin tiralabrakieleksi. Kuitenkin jäsän kirjoittamisen, testaamisen ja testikattavuuden seuraamisen olisi syytä olla entuudestaan tuttua.
-
-Koodikatselmoinnista voi kielivalinnan takia jäädä pisteitä saamatta.
-
-Puhu joka tapauksessa ohjaajan kanssa *ennen ekaa palautusta*!
-
-## Voiko kieleksi valita Pascal/APL/ADA/Piet/PHP/...?
-
-Ei suositella. Voit kysyä ohjaajalta *ennen ekaa palautusta*!
-
 ## Mitä pitää testata?
 
 Yksikkötesteillä tulee testata kaikki paitsi käyttöliittymä, suorituskykytestit ja mahdollisesti tiedostojen luku ja kirjoittaminen riippuen projektista. Mieti mitä oman sovelluksesi toiminnan oikeellisuus tarkoittaa. Reitinhakualgoritmin tulee löytää lyhin reitti, jos se kuuluu algoritmin määritelmään, ja reitin ja sen etsinnän etenemisen pitää olla sen kaltainen kuin on tarkoitus. Labyrintin tai luolaston tulee olla yhtenäinen. Miinaharavabotti ei saa koskaan osua miinaan silloin, kun ruutua pidetään turvallisena. Pakatun tiedoston koon täytyy olla odotusten mukainen, ja sen tulee purkautua alkuperäiseksi. Shakkibotti ei saa tehdä laittomia siirtoja, ja sen on osattava tehdä matti, mikäli mahdollista sillä laskentasyvyydellä, johon päästään. Jos kattava oikeellisuustesti vie liikaa aikaa, kannattaa laittaa yksikkötesteihin vain pari edustavaa testitapausta ja tehdä lisäksi erillinen testipaketti. 
