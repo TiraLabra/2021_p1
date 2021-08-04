@@ -21,7 +21,7 @@ Aiheen voi keksiä itse, tai voit valita alla olevasta listasta itsellesi mielen
 
 * Reitinhakualgoritmien vertailussa on syytä heti alkuun toteuttaa löydetyn reitin ja läpikäytyjen solmujen / hyppypisteiden visualisointi. Ilman sitä on vaikeaa selvittää toimiiko algoritmi oikein. Kartan mukana tulevia etäisyystietoja voi käyttää, mutta oikea etäisyys ei takaa, että algoritmi toimii niin tehokkaasti kuin sen kuuluu toimia. Visualisointi paitsi auttaa valmiin työn oikeellisuuden toteamisessa, nopeuttaa myös virheiden löytämistä ohjelman laatimisen aikana.
 
-* Karttoja reitinhakutöihin löytyy esimerkiksi [Moving AI Lab](http://www.movingai.com/benchmarks/):in sivuilta tai maanminttauslaitoksen karttojen [lataus](http://kartat.kapsi.fi/) sivustolta.
+* Karttoja reitinhakutöihin löytyy esimerkiksi [Moving AI Lab](http://www.movingai.com/benchmarks/):in sivuilta tai maanminttauslaitoksen karttojen [lataus](http://kartat.kapsi.fi/) sivustolta. Huomaa, että Moving AI:n kartoissa ilmoitetut etäisyydet on laskettu niin, että reitti kiertää esteen kulmapikselin eikä kulje poikittain tavallan sen yli. 
 
 * Myös joukkoliikenteen reitti/aikataulut [https://developers.google.com/transit/gtfs/](https://developers.google.com/transit/gtfs/) tai [https://digitransit.fi/en/developers/](https://digitransit.fi/en/developers/) ja avoin karttadata [https://www.openstreetmap.org](https://www.openstreetmap.org) ovat olleet suosittuja.
 
@@ -42,7 +42,7 @@ Aiheen voi keksiä itse, tai voit valita alla olevasta listasta itsellesi mielen
 
 * [15-pelin](http://en.m.wikipedia.org/wiki/15_puzzle) ratkaisija. Kaikille tuttu 15-peli voi olla haastava ratkaistava. Saatko kehitettyä ohjelman joka ratkaisee pelin kuin pelin? IDA* sopivalla heuristiikalla kelpaa ratkaisuksi, A\* ei riitä, se on liian lähellä Tira-kurssilla opittua Dijkstran algoritmia.
 
-* [Miinaharava](https://en.wikipedia.org/wiki/Minesweeper_(video_game)) on toinen suosittu pulmapeli. Voit toteuttaa ratkaisijan/auttajan miinaharavaan projektipohjalla joka läytyy täältä: [https://github.com/TiraLabra/minesweeper](https://github.com/TiraLabra/minesweeper) Tämän kurssin kannalta kiinnostavista ratkaisutavoista kerrotaan esim. täällä: https://dash.harvard.edu/handle/1/14398552  Jos käytät valmista pohjaa, kerro koodin kommenteissa selvästi mikä on omaa koodiasi, ja mikä on pohjaa. Älä muokkaa pohjaa, vaan kirjoita oma koodisi omaan luokkaansa / metodiinsa.
+* [Miinaharava](https://en.wikipedia.org/wiki/Minesweeper_(video_game)) on toinen suosittu pulmapeli. Voit toteuttaa ratkaisijan/auttajan miinaharavaan projektipohjalla joka läytyy täältä: [https://github.com/TiraLabra/minesweeper](https://github.com/TiraLabra/minesweeper) Tämän kurssin kannalta kiinnostavista ratkaisutavoista kerrotaan esim. täällä: [https://dash.harvard.edu/handle/1/14398552](https://dash.harvard.edu/handle/1/14398552)  Jos käytät valmista pohjaa, kerro koodin kommenteissa selvästi mikä on omaa koodiasi, ja mikä on pohjaa. Älä muokkaa pohjaa, vaan kirjoita oma koodisi omaan luokkaansa / metodiinsa.
 
 * [halite](https://halite.io/) tekoäly. Tai muu internetistä löytyvä tekoälyhaaste.
 
@@ -65,7 +65,7 @@ Tietorakenteita on monenlaisia, mikä olisi paras kuhunkin ongelmaan? Vertaile n
 
 
 ## Salaus ja Tietoturva
-* Tietoturva on tänä päivänä tärkeämpää kuin koskaan monien toimintojemme siirryttyä verkkoon. Salausta voi tehdä monilla eri tavoin ja moniin käyttötarkoituksiin, oheinen sivusto tarjoaa paljon kokeiltavaa aiheesta: http://rumkin.com/tools/cipher/index.php
+* Tietoturva on tänä päivänä tärkeämpää kuin koskaan monien toimintojemme siirryttyä verkkoon. Salausta voi tehdä monilla eri tavoin ja moniin käyttötarkoituksiin, oheinen sivusto tarjoaa paljon kokeiltavaa aiheesta: [http://rumkin.com/tools/cipher/index.php](http://rumkin.com/tools/cipher/index.php)
 
 * Salauksia ja tiivistyksiä voi myös purkaa. Ylläolevan linkin kautta löydät paljon ideoita - voit myös ryhtyä tutkimaan esimerkiksi merkkien frekvenssejä ja analysoida sitä kautta salattua tiedostoa. Vaihtosalaukseen perustuvan salakirjoituksen saa murrettua sanaston avulla, jos teksti on riittävän pitkä, ja tiedetään mitä kieltä se on. 
 
