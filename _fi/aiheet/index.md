@@ -75,6 +75,6 @@ Toteuta yksi (tai useampi, riippuen vaativuudesta) signaalinkäsittelyalgoritmi 
 ### Muuta kivaa
 * Rahtifirma NopsaToimitus haluaa optimoida konttikuljetuksissa käytettävän tilan. Suunnittele miten voidaan täyttää yksi tai useampi kontti mahdollisimman tehokkaasti, jos tiedetään pakettien määrä ja koot. Ideaa voi hakea kuutiopalapelin ratkaisijasta.
 
-* Säännöllisten lausekkeiden tulkki tai kääntäjä. [Säännölliset lausekkeet](https://web.archive.org/web/20181227172507/https://blog.stevenlevithan.com/archives/10-reasons-to-learn-and-use-regular-expressions) Tulkki sovittaa lauseketta merkkijonoon ja kertoo, kuuluuko se lausekkeen määräämään kieleen. Kääntäjä tuottaa DFA:n, jolle merkkijono annetaan, ja saadaan sama tulos kuin edellä.
+* Säännöllisten lausekkeiden tulkki tai kääntäjä. Tulkki sovittaa lauseketta merkkijonoon ja kertoo, kuuluuko se lausekkeen määräämään kieleen. Kääntäjä tuottaa DFA:n, jolle merkkijono annetaan, ja saadaan sama tulos kuin edellä. [Säännölliset lausekkeet](https://blog.stevenlevithan.com/archives/10-reasons-to-learn-and-use-regular-expressions) 
 
-* Kirjoitusvirheiden korjaaja. Merkkijonojen etäisyysmittojen avulla voi selvittää mikä oikea sana todennäköisimmin on, kun tiedetään millaisia virheitä ihmiset tyypillisesti tekevät kirjoittaessaan. Tällä pääsee alkuun: (https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
+* Kirjoitusvirheiden korjaaja. Merkkijonojen etäisyysmittojen avulla voi selvittää mikä oikea sana todennäköisimmin on, kun tiedetään millaisia virheitä ihmiset tyypillisesti tekevät kirjoittaessaan. Yksi tähän soveltuva mitta on [Damerau–Levenshtein -etäisyys]:(https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
