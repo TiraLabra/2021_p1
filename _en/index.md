@@ -46,7 +46,7 @@ Detailed course timing is available [here](timing/).
 
 ## 📣 News
 
-* No starting lecture in English available this time. The course instructions in English are not completely up to date. The course has not changed significantly. However, you should also read the Finnish course pages. The instructor will help you in Finnish or in English, please contact by email or Telegram.
+* No starting lecture in English available this time. **The instructions in English are not up to date. You should read the Finnish course pages too.** The instructor will help you in Finnish or in English, please contact by email or Telegram.
 
 * <script>
    if (doodleSent) {
