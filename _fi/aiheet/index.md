@@ -64,9 +64,9 @@ Tietorakenteita on monenlaisia, mikä olisi paras kuhunkin ongelmaan? Vertaile n
 
 
 ## Salaus ja Tietoturva
-* Tietoturva on tänä päivänä tärkeämpää kuin koskaan monien toimintojemme siirryttyä verkkoon. Salausta voi tehdä monilla eri tavoin ja moniin käyttötarkoituksiin, oheinen sivusto tarjoaa paljon kokeiltavaa aiheesta: [http://rumkin.com/tools/cipher/index.php](http://rumkin.com/tools/cipher/index.php)
+* Tietoturva on tänä päivänä tärkeämpää kuin koskaan monien toimintojemme siirryttyä verkkoon. Salausta voi tehdä monilla eri tavoin ja moniin käyttötarkoituksiin. Esim. [RSA-salaus](https://fi.wikipedia.org/wiki/RSA) on sopiva aihe. Sovi ohjaajan kanssa mitä valmiita välineitä voit käyttää, jotta saavutetaan sopiva laajuus työlle.
 
-* Salauksia ja tiivistyksiä voi myös purkaa. Ylläolevan linkin kautta löydät paljon ideoita - voit myös ryhtyä tutkimaan esimerkiksi merkkien frekvenssejä ja analysoida sitä kautta salattua tiedostoa. Vaihtosalaukseen perustuvan salakirjoituksen saa murrettua sanaston avulla, jos teksti on riittävän pitkä, ja tiedetään mitä kieltä se on. 
+* Salauksia ja tiivistyksiä voi myös purkaa. Esimerkiksi vaihtosalaukseen perustuvan salakirjoituksen saa murrettua sanaston avulla merkkien frekvenssejä analysoimalla, jos teksti on riittävän pitkä, ja tiedetään mitä kieltä se on. 
 
 ## Signaalinkäsittely (kuva, ääni)
 Toteuta yksi (tai useampi, riippuen vaativuudesta) signaalinkäsittelyalgoritmi ja raportoi tuloksista. Useat signaalinkäsittelyn algoritmit hyödyntävät matriisilaskentaa ja lineaarialgebraa, joten niiden tunteminen on hyödyksi.
