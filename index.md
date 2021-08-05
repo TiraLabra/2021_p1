@@ -112,7 +112,7 @@ if (timing["paja1"]) {
   script.parentElement.insertBefore(elem, script);
 } else {
   var elem = document.createElement("li");
-  elem.innerHTML = "Intensiivikursseilla ei järjestetä viikottaista pajaa. Jos haluat henkilökohtaista ohjausta kumpulassa niin ota yhteyttä ohjaajaan";
+  elem.innerHTML = "Kurssilla ei järjestetä viikottaista pajaa. Henkilökohtaista ohjausta saa erikseen sovittuna ajankohtana Zoomissa, ota matalalla kynnyksellä yhteyttä ohjaajaan, jos tarvitset apua.";
   script.parentElement.insertBefore(elem, script);
 }
 </script>
