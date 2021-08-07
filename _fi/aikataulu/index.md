@@ -44,11 +44,11 @@ Kolmen peräkkäisen viikon ajan muuttumaton repositorio tulkitan kurssin keskey
 ## Viikko 3:
 
 * Palautus 3: **<script>document.write(fiString(timing["dl3"].date));</script>**
-    * [Dokumentaatio](../dokumentaatio/): Kirjoitettu koodi selkeää ja kommentoitua.
+    * [Dokumentaatio](../dokumentaatio/): Kirjoitettu koodi selkeää ja kommentoitua. Aloitettu kirjoittamaan testausdokumenttia.
     * Viikkoraportti numero 3
     * Ohjelma: Ohjelman ydinalue edennyt, aloitettu mahdollisesti jo omien tietorakenteiden toteutus.
     * Testaus: Koodin *kattava* yksikkötestaus.
-    * Viimeistään tässä vaiheessa testikattavuuden olisi oltava käytettävissä viikkotarkastuksissa.
+    * Viimeistään tässä vaiheessa testikattavuuden olisi oltava käytettävissä, ja testausdokumentissa on ainakin testikattavuusraportti.
     * Viimeistään tässä vaiheessa checkstylen tai vastaavan koodin laadun seurannan tulisi olla käytössä.
 
 ## Viikko 4:
@@ -58,7 +58,7 @@ Kolmen peräkkäisen viikon ajan muuttumaton repositorio tulkitan kurssin keskey
 * Salli issuet vertaisarviointia varten, katso [Issueiden luonnin salliminen repoon](../issuet/)
 
 * Palautus 4: **<script>document.write(fiString(timing["dl4"].date));</script>**
-    * [Dokumentaatio](../dokumentaatio/): Koodi kommentoitua. Aloitettu kirjoittamaan toteutus- ja testausdokumentaatiota.
+    * [Dokumentaatio](../dokumentaatio/): Koodi kommentoitua. Aloitettu kirjoittamaan toteutusraporttia.
     * Viikkoraportti numero 4
     * Ohjelma: Ohjelman ydintoiminta valmis. Omia tietorakenteita aloitettu.
     * Testaus: Koodin *kattava* yksikkötestaus. Aloitettu suorituskyky- tai muu aiheeseen sopiva testaus (kirjoita näistä testausdokumenttiin).
@@ -69,7 +69,7 @@ Kolmen peräkkäisen viikon ajan muuttumaton repositorio tulkitan kurssin keskey
 
 * Palautus 5: **<script>document.write(fiString(timing["dl5"].date));</script>**
    * Ensimmäinen vertaisarviointi tehtynä (Löydät linkin katselmoitavaan repoon [labtoolista](https://study.cs.helsinki.fi/labtool/))
-   * [Dokumentaatio](../dokumentaatio/): Koodi kommentoitua. Aloitettu kirjoittamaan toteutus- ja testausdokumentaatiota.
+   * [Dokumentaatio](../dokumentaatio/): Koodi kommentoitua. Toteutus- ja testausdokumentaatiota kirjoitettu.
    * Viikkoraportti numero 5
    * Ohjelma: Ohjelman ydintoiminta valmis. Omia tietorakenteita aloitettu.
    * Testaus: Koodin *kattava* yksikkötestaus. Aloitettu suorituskyky- tai muu aiheeseen sopiva testaus.
@@ -80,7 +80,7 @@ Kolmen peräkkäisen viikon ajan muuttumaton repositorio tulkitan kurssin keskey
    * **Toinen vertaisarviointi tehtynä** (löydät linkin katselmoitavaan repoon [labtoolista](https://study.cs.helsinki.fi/labtool/))
    * [Dokumentaatio](../dokumentaatio/): Kirjoitettu koodi kommentoitua. Toteutus- ja testausdokumentaatiota kirjoitettu.
    * Viikkoraportti numero 6
-   * Ohjelma: Tietorakenteet ja algoritmit toteutettu itse.
+   * Ohjelma: Tietorakenteiden ja algoritmien omat toteutukset käytössä siltä osin mitä on sovittu tehtäväksi itse.
    * Testaus: Koodin *kattava* yksikkötestaus. Suorituskykytestausta tehty.
 
 ## Demotilaisuus:
