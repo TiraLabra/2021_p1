@@ -48,7 +48,7 @@ Aiheen voi keksiä itse, tai voit valita alla olevasta listasta itsellesi mielen
 
 ## Koneoppiminen
 
-* Laskennallinen luovuus. Luovuutta voi toteuttaa esimerkiksi geneettisten algoritmien tai Markovin ketjujen avulla. Markovin ketju on prosessi, jossa kukin tila riippuu vain edellisestä tilasta, tai tässä tapauksessa yleensä jostain kiinteästä määrästä edellisiä tiloja. Näin voidaan tuottaa vaikka musiikkia tai luonnollisen kielen kaltaisia sanoja tai lauseita. Tuotettuja sanoja voi hyödyntää myös salasanan murtajassa valmiin sanaston jatkeena. Toteuta itse Trie-tietorakenne sanojen / lauseiden / sävel- / sointusekvenssien tallettamiseen. 
+* Laskennallinen luovuus. Markovin ketjujen avulla voidaan tuottaa esimerkiksi musiikkia tai luonnollisen kielen kaltaisia sanoja tai lauseita. Markovin ketju on prosessi, jossa kukin tila riippuu vain edellisestä tilasta, tai tässä tapauksessa yleensä jostain kiinteästä määrästä edellisiä tiloja. Toteuta itse Trie-tietorakenne sanojen / lauseiden / sävel- / sointusekvenssien tallettamiseen. Muuten voit käyttää valmiita välineitä opetusdatan käsittelyyn, melodian soittamiseen / nuotintamiseen jne. Aiemmissa projekteissa on musiikkidataa syötetty ohjelmalle MIDI-tiedostoina, Lilypond-nuotteina, koskettimilla soittamalla ja muuntamalla nuotteja käsin numeeriseen muotoon. Myös geneettisillä algoritmeilla voi tuottaa taidetta. 
 
 * Eigenface kasvontunnistus. Katso [Eigenface](https://en.wikipedia.org/wiki/Eigenface) Esitiedot: vähintään Lineaarialgebra ja matriisilaskenta 1+2. Perusmenetelmää voidaan laajentaa, jolloin voit käyttää matriisilaskentaan valmiita kirjastoja, sovi tarkemmasta aiheesta ohjaajan kanssa. Kaikille ohjelmointikielille ei valmiita matriisilaskennan välineitä kuitenkaan ole olemassa.
 
@@ -66,7 +66,7 @@ Tietorakenteita on monenlaisia, mikä olisi paras kuhunkin ongelmaan? Vertaile n
 ## Salaus ja Tietoturva
 * Tietoturva on tänä päivänä tärkeämpää kuin koskaan monien toimintojemme siirryttyä verkkoon. Salausta voi tehdä monilla eri tavoin ja moniin käyttötarkoituksiin. Esim. [RSA-salaus](https://fi.wikipedia.org/wiki/RSA) on sopiva aihe. Sovi ohjaajan kanssa mitä valmiita välineitä voit käyttää, jotta saavutetaan sopiva laajuus työlle.
 
-* Salauksia ja tiivistyksiä voi myös purkaa. Esimerkiksi vaihtosalaukseen perustuvan salakirjoituksen saa murrettua sanaston avulla merkkien frekvenssejä analysoimalla, jos teksti on riittävän pitkä, ja tiedetään mitä kieltä se on. 
+* Salauksia voi myös murtaa. Esimerkiksi vaihtosalaukseen perustuvan salakirjoituksen saa murrettua sanaston avulla merkkien frekvenssejä analysoimalla, jos teksti on riittävän pitkä, ja tiedetään mitä kieltä se on. Ratkaisuksi käy peruuttava haku, joka kokeilee korvata salattuja merkkejä siinä järjestyksessä, mitkä frekvenssien perusteella ovat luultavimpia.
 
 ## Signaalinkäsittely (kuva, ääni)
 Toteuta yksi (tai useampi, riippuen vaativuudesta) signaalinkäsittelyalgoritmi ja raportoi tuloksista. Useat signaalinkäsittelyn algoritmit hyödyntävät matriisilaskentaa ja lineaarialgebraa, joten niiden tunteminen on hyödyksi.
