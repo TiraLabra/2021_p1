@@ -34,7 +34,7 @@ Aiheen voi keksiä itse, tai voit valita alla olevasta listasta itsellesi mielen
 
 * Vuoropohjaisia kahden pelaajan pelejä pelataan usein [minimax-algoritmilla](https://en.wikipedia.org/wiki/Minimax), jota on tehostettu [alpha-beta-karsinnalla](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). Yleensä ei ole mahdollista tutkia kaikkia siirtovaihtoehtoja siihen asti, että jompi kumpi pelaaja voittaa. Silloin täytyy erilaisia pelitilanteita laittaa arvojärjestykseen myös muilla perusteilla. Tällainen on sopiva laajuus peliprojektille. Kaikkiin alla mainittuihin peleihin ei tämä lähestymistapa kuitenkaan toimi.
 
-* Shakki, go, risti-nolla (laajalla ruudukolla, 5:n rivi) jne. ovat hauskoja ja haastavia pelejä. Niitä olisi kiva pelata tietokonetta vastaan, tehtävänäsi on kehittää valitsemallesi pelille tekoäly. Tekoälyn pitää pystyä pelaamaan ihmistä vastaan, ehkä myös itseään vastaan. 
+* Shakki, go, risti-nolla (laajalla ruudukolla, 5:n rivi) jne. ovat hauskoja ja haastavia pelejä. Niitä olisi kiva pelata tietokonetta vastaan, tehtävänäsi on kehittää valitsemallesi pelille tekoäly. Tekoälyn pitää pystyä pelaamaan ihmistä vastaan, ehkä myös itseään vastaan. Voit käyttää valmista Java-pohjaa, mutta huomaa, että siihen perehtyminen voi vaatia paljon aikaa.
 
 * [xboard](https://www.gnu.org/software/xboard/) ja [lichess](https://lichess.org/blog/WvDNticAAMu_mHKP/welcome-lichess-bots) alustoja hyödyntävä java-projektipohja shakkitekoälylle on tehty ohtu-projektina, ja se löytyy täältä: [https://github.com/TiraLabra/chess](https://github.com/TiraLabra/chess) Jos käytät valmista pohjaa, kerro koodin kommenteissa selvästi mikä on omaa koodiasi, ja mikä on pohjaa. Älä muokkaa pohjaa, vaan kirjoita oma koodisi omaan luokkaansa / metodiinsa.
 
