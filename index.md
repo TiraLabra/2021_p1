@@ -75,8 +75,6 @@ Tarkempi aikataulu [täällä](fi/aikataulu/).
 
 * [Tarkka aikataulu](fi/aikataulu)
 
-* [Usein kysytyt kysymykset](fi/faq)
-
 * [Aiheideoita](fi/aiheet)
 
 * [Tietoja dokumentaatiosta](fi/dokumentaatio)
