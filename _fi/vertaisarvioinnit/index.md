@@ -26,7 +26,7 @@ Näet sinulle osoitetun katselmointikohteen repositoriolinkin labtoolista koodik
 
 ## Palautteenanto
 
-Palautteessasi kerro toiselle opiskelijalle, missä on parannettavaa. Mitä tarkempi palaute, sen arvokkaampaa se on palautteen saajalle. Osatessasi voit antaa vinkkejä siitä, miten asioita voisi tehdä toisin tai onko ohjelman rakenteessa parannettavaa. Jos havaitsit selkeitä bugeja tai virheellistä koodia, kerro siitä. Kannattaa kertoa myös, jos jotkin testit eivät toimineet tai projekti ei käänny. Tarkoitus ei ole tehdä labtoolin-tyylisiä hieman pintapuolisia mainintoja, vaan tutkia koodia tarkasti ja antaa täsmällisiä parannusehdotuksia. Muista myös positiivinen palaute!
+Palautteessasi kerro toiselle opiskelijalle, missä on parannettavaa. Mitä tarkempi palaute, sen arvokkaampaa se on palautteen saajalle. Osatessasi voit antaa vinkkejä siitä, miten asioita voisi tehdä toisin tai onko ohjelman rakenteessa parannettavaa. Jos havaitsit selkeitä bugeja tai virheellistä koodia, kerro siitä. Kannattaa kertoa myös, jos jotkin testit eivät toimineet tai projekti ei käänny. Tarkoitus ei ole tehdä labtoolin-tyylisiä hieman pintapuolisia mainintoja, vaan tutkia koodia tarkasti ja antaa täsmällisiä parannusehdotuksia. Muista myös positiivinen palaute! Palautteen saajat ovat usein vastanneet palautteeseen, joten olisi hyvä jos kävisit vähän ajan päästä katsomassa onko palautteeseesi vastattu, ja onko palautteen saaja ehkä esittänyt jonkin kysymyksen, johon voisit vielä vastata. 
 
 ## Palaute annetaan Githubin Issuena:
 
