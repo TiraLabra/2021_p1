@@ -53,8 +53,7 @@ Tarkempi aikataulu [täällä](fi/aikataulu/).
 
 ## 📣 Ajankohtaista
 
-* Kurssin ohjeistusta on muutettu aika paljon. Lue kaikki ohjeet uudestaan, jos olet keskeyttänyt kurssin tai muuten tutustunut aiempien kurssien ohjeisiin. Pieniä tarkennuksia voi tulla kurssin alkamiseen asti, mutta oleelliset muutokset on jo kirjattu kurssisivulle.
-
+* Kurssin ohjeistusta on muutettu aika paljon. Lue kaikki ohjeet uudestaan, jos olet keskeyttänyt kurssin tai muuten tutustunut aiempien kurssien ohjeisiin.
 * <script>
    if (doodleSent) {
     if (timing["demo"]) {
