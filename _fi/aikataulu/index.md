@@ -87,8 +87,8 @@ Kolmen peräkkäisen viikon ajan muuttumaton repositorio tulkitan kurssin keskey
 
 <ul>
   <li id="demo" />
-  <li>Esitetään omalta koneelta. Jos tämä ei onnistu kannattaa sopia kaverin tai ohaajan kanssa siitä miten demotaan.</li>
-  <li>Lyhyt noin 5 minuuttinen esitys ja mahdollisiin kysymyksiin vastailu (riippuen aikataulusta).</li>
+  <li>Esitellään ohjelman toimintaa Zoomissa.</li>
+  <li>Lyhyt noin 10 minuuttinen esitys ja mahdollisiin kysymyksiin vastailu (riippuen aikataulusta).</li>
 </ul>
 
 <script>
