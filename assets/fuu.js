@@ -21,7 +21,7 @@ const timing = {
     "demo1": {"date": "2020-10-26", "fi": "Demotilaisuus", "en": "Demo Session", "common": "12-14 Zoom"},
     "demo2": {"date": "2020-10-26", "fi": "Demotilaisuus", "en": "Demo Session", "common": "16-18 Zoom"},
     "demo3": {"date": "2020-10-28", "fi": "Demotilaisuus", "en": "Demo Session", "common": "14-16 Zoom"},
-    "demo2": {"date": "2020-10-29", "fi": "Demotilaisuus", "en": "Demo Session", "common": "12-14 Zoom"},
+    "demo4": {"date": "2020-10-29", "fi": "Demotilaisuus", "en": "Demo Session", "common": "12-14 Zoom"},
     "end": {"date": "2021-10-31T23:59:59+02:00", "en": "Final submission", "fi": "Loppupalautus"}
 };
 
